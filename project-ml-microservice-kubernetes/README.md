@@ -49,31 +49,31 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-### Tasks
+## Tasks
 
-# Task 1: Complete the Dockerfile
+### Task 1: Complete the Dockerfile
 Completed dockerfile can be found here *project-ml-microservice-kubernetes/Dockerfile*.
 
-# Task 2: Run a Container & Make a Prediction
+### Task 2: Run a Container & Make a Prediction
 Completed by running *./run_docker.sh* and then running *./make_prediction.sh* in a separate terminal window.
 
-# Task 3: Improve Logging & Save Output
+### Task 3: Improve Logging & Save Output
 Change made in *project-ml-microservice-kubernetes/app.py* to enhance logging. Output saved to *project-ml-microservice-kubernetes/output_txt_files/docker_out.txt*.
 
-# Task 4: Upload the Docker Image
+### Task 4: Upload the Docker Image
 Completed by running *./upload_docker.sh* and then entering password on prompt.
 
-# Task 5: Configure Kubernetes to Run Locally
+### Task 5: Configure Kubernetes to Run Locally
 Completed by running *minikube start* and validated by running *kubectl config view*.
 
-# Task 6: Deploy with Kubernetes and Save Output Logs
+### Task 6: Deploy with Kubernetes and Save Output Logs
 Completed by running *./run_kubernetes.sh* and then running *./make_prediction.sh* in a separate terminal window. Output saved to *project-ml-microservice-kubernetes/output_txt_files/kubernetes_out.txt*.
 
-# Task 7: Delete Cluster
+### Task 7: Delete Cluster
 Running *minikube delete* cleans up resources.
 
-# Task 8: CircleCI Integration
+### Task 8: CircleCI Integration
 Automated testing logic is in *.circlici/config.yml*. All tests pass and the build was successful as indicated by the status badge at the top of this README.
 
-# Task 9: README.md
+### Task 9: README.md
 Completed.
