@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=jballantine1/finalproj
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker tag predictions $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
