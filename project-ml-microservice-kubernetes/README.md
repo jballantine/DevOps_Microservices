@@ -76,4 +76,4 @@ Running *minikube delete* cleans up resources.
 Automated testing logic is in *.circlici/config.yml*. All tests pass and the build was successful as indicated by the status badge at the top of this README.
 
 ### Task 9: README.md
-Completed.
+Completed by adding this *Tasks* section to this README.
