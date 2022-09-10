@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=jballantine1/project4
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login -u jballantine1
+docker tag project4 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
